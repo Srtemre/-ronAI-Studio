@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Material 3 color tokens used as fallbacks for Compose theme. -->
+    <color name="md_theme_dark_primary">#8AB4F8</color>
+    <color name="md_theme_dark_on_primary">#002F66</color>
+    <color name="md_theme_dark_surface">#101418</color>
+    <color name="md_theme_dark_on_surface">#E3E2E6</color>
+    <color name="md_theme_dark_background">#0E1116</color>
+    <color name="md_theme_dark_on_background">#E3E2E6</color>
+
+    <color name="md_theme_light_primary">#0B57D0</color>
+    <color name="md_theme_light_on_primary">#FFFFFF</color>
+    <color name="md_theme_light_surface">#FDFBFF</color>
+    <color name="md_theme_light_on_surface">#1A1C1E</color>
+    <color name="md_theme_light_background">#FDFBFF</color>
+    <color name="md_theme_light_on_background">#1A1C1E</color>
+</resources>

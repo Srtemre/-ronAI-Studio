@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">HTML to APK Studio</string>
+
+    <!-- Navigation -->
+    <string name="nav_home">Ana Sayfa</string>
+    <string name="nav_projects">Projeler</string>
+    <string name="nav_settings">Ayarlar</string>
+
+    <!-- Home -->
+    <string name="home_welcome">HTML, ZIP, URL, klasör veya ham HTML\'i Android WebView uygulamalarına dönüştür.</string>
+    <string name="home_quick_start">Hızlı başlangıç</string>
+    <string name="home_fast_mode">Hızlı Mod</string>
+    <string name="home_fast_mode_desc">Birkaç dokunuşla proje oluştur.</string>
+    <string name="home_expert_mode">Uzman Mod</string>
+    <string name="home_expert_mode_desc">WebView, imzalama ve izinler üzerinde tam kontrol.</string>
+    <string name="home_recent_projects">Son projeler</string>
+    <string name="home_no_recent">Henüz proje yok.</string>
+    <string name="home_stats">İstatistikler</string>
+    <string name="home_stat_total">Toplam</string>
+    <string name="home_stat_favorites">Favoriler</string>
+    <string name="home_stat_last_build">Son derleme</string>
+    <string name="home_stat_never">Yok</string>
+
+    <!-- Editor: common -->
+    <string name="editor_fast_mode">Hızlı Mod</string>
+    <string name="editor_expert_mode">Uzman Mod</string>
+    <string name="editor_section_basic">Temel</string>
+    <string name="editor_section_source">Kaynak</string>
+    <string name="editor_section_permissions">İzinler</string>
+    <string name="editor_section_webview">WebView</string>
+    <string name="editor_section_appearance">Görünüm</string>
+    <string name="editor_section_signing">İmzalama</string>
+    <string name="editor_section_advanced">Gelişmiş</string>
+
+    <string name="field_app_name">Uygulama adı</string>
+    <string name="field_package">Paket adı</string>
+    <string name="field_version">Sürüm</string>
+    <string name="field_logo">Uygulama logosu</string>
+    <string name="field_splash">Açılış ekranı</string>
+    <string name="field_orientation">Yönlendirme</string>
+    <string name="field_source">Kaynak</string>
+
+    <string name="orientation_auto">Otomatik</string>
+    <string name="orientation_portrait">Dikey</string>
+    <string name="orientation_landscape">Yatay</string>
+
+    <string name="source_html_file">HTML Dosyası</string>
+    <string name="source_zip">ZIP Arşivi</string>
+    <string name="source_folder">Klasör</string>
+    <string name="source_website_url">Web Sitesi URL</string>
+    <string name="source_paste_html">HTML Yapıştır</string>
+
+    <string name="action_pick_html_file">HTML dosyası seç</string>
+    <string name="action_pick_zip">ZIP arşivi seç</string>
+    <string name="action_pick_folder">Klasör seç</string>
+    <string name="action_fetch_url">URL\'yi getir</string>
+    <string name="action_paste_html">HTML yapıştır</string>
+    <string name="action_pick_logo">Logo seç</string>
+    <string name="action_pick_splash">Açılış görseli seç</string>
+
+    <!-- WebView settings -->
+    <string name="webview_javascript">JavaScript</string>
+    <string name="webview_dom_storage">DOM Depolama</string>
+    <string name="webview_mixed_content">Karışık içerik</string>
+    <string name="webview_cache_mode">Önbellek modu</string>
+    <string name="webview_user_agent">Kullanıcı aracısı</string>
+    <string name="webview_fullscreen">Tam ekran</string>
+    <string name="webview_immersive">Sürükli mod</string>
+    <string name="webview_keep_screen_on">Ekranı açık tut</string>
+    <string name="webview_edge_to_edge">Kenardan kenara</string>
+    <string name="webview_adaptive_icons">Uyarlanır simgeler</string>
+    <string name="webview_load_remote">Uzak içeriğe izin ver</string>
+    <string name="webview_zoom">Yakınlaştırma kontrolleri</string>
+    <string name="webview_media_playback">Sesli medya oynatma</string>
+    <string name="webview_file_access">Dosya erişimi</string>
+
+    <string name="cache_default">Varsayılan</string>
+    <string name="cache_no_cache">Önbellek yok</string>
+    <string name="cache_cache_else_network">Önce önbellek</string>
+    <string name="cache_network_else_cache">Önce ağ</string>
+    <string name="cache_cache_only">Sadece önbellek</string>
+
+    <string name="user_agent_default">Varsayılan</string>
+    <string name="user_agent_desktop">Masaüstü</string>
+    <string name="user_agent_custom">Özel</string>
+
+    <!-- Permissions -->
+    <string name="perm_internet">İnternet</string>
+    <string name="perm_network_state">Ağ durumu</string>
+    <string name="perm_storage">Depolama</string>
+    <string name="perm_camera">Kamera</string>
+    <string name="perm_microphone">Mikrofon</string>
+    <string name="perm_location">Konum</string>
+    <string name="perm_notifications">Bildirimler</string>
+    <string name="perm_vibrate">Titreşim</string>
+
+    <!-- Signing -->
+    <string name="signing_keystore">Keystore dosyası</string>
+    <string name="signing_keystore_password">Keystore parolası</string>
+    <string name="signing_key_alias">Anahtar takma adı</string>
+    <string name="signing_key_password">Anahtar parolası</string>
+    <string name="signing_pick_keystore">Keystore seç</string>
+
+    <!-- Advanced -->
+    <string name="advanced_min_sdk">Min SDK</string>
+    <string name="advanced_target_sdk">Hedef SDK</string>
+    <string name="advanced_app_theme">Üretilen uygulama teması</string>
+    <string name="advanced_status_bar_color">Durum çubuğu rengi</string>
+    <string name="advanced_nav_bar_color">Gezinme çubuğu rengi</string>
+    <string name="advanced_enable_pull_refresh">Yenilemek için kaydır</string>
+    <string name="advanced_offline_fallback">Çevrimdışı yedek sayfa</string>
+    <string name="advanced_enable_deep_links">Derin bağlantılar</string>
+    <string name="advanced_proguard">R8/ProGuard etkin</string>
+    <string name="advanced_custom_headers">Özel HTTP başlıkları (JSON)</string>
+
+    <!-- Project actions -->
+    <string name="action_create">Oluştur</string>
+    <string name="action_save">Kaydet</string>
+    <string name="action_generate">Proje Üret</string>
+    <string name="action_build_apk">APK Derle</string>
+    <string name="action_export">Dışa Aktar</string>
+    <string name="action_import">İçe Aktar</string>
+    <string name="action_rename">Yeniden adlandır</string>
+    <string name="action_duplicate">Çoğalt</string>
+    <string name="action_delete">Sil</string>
+    <string name="action_favorite">Favori</string>
+    <string name="action_unfavorite">Favoriden çıkar</string>
+    <string name="action_open">Aç</string>
+    <string name="action_share">Paylaş</string>
+    <string name="action_cancel">İptal</string>
+    <string name="action_confirm">Onayla</string>
+    <string name="action_ok">Tamam</string>
+    <string name="action_close">Kapat</string>
+
+    <!-- Projects -->
+    <string name="projects_title">Projeler</string>
+    <string name="projects_search_hint">Proje ara…</string>
+    <string name="projects_empty">Henüz proje yok. Hızlı veya Uzman moddan oluştur.</string>
+    <string name="projects_filter_all">Tümü</string>
+    <string name="projects_filter_favorites">Favoriler</string>
+    <string name="projects_filter_recent">Son</string>
+    <string name="projects_sort">Sırala</string>
+    <string name="sort_name_asc">Ad (A→Z)</string>
+    <string name="sort_name_desc">Ad (Z→A)</string>
+    <string name="sort_date_desc">Önce yeni</string>
+    <string name="sort_date_asc">Önce eski</string>
+
+    <string name="confirm_delete_title">Projeyi sil</string>
+    <string name="confirm_delete_message">\"%1$s\" silinsin mi? Geri alınamaz.</string>
+    <string name="rename_title">Projeyi yeniden adlandır</string>
+
+    <!-- Settings -->
+    <string name="settings_section_appearance">Görünüm</string>
+    <string name="settings_section_language">Dil</string>
+    <string name="settings_section_build_defaults">Derleme varsayılanları</string>
+    <string name="settings_section_cache">Önbellek</string>
+    <string name="settings_section_about">Hakkında</string>
+
+    <string name="settings_theme">Tema</string>
+    <string name="theme_dark">Koyu</string>
+    <string name="theme_light">Açık</string>
+    <string name="theme_system">Sistem</string>
+
+    <string name="settings_dynamic_color">Dinamik renk (Material You)</string>
+    <string name="settings_accent_color">Vurgu rengi</string>
+
+    <string name="settings_language">Dil</string>
+    <string name="lang_english">English</string>
+    <string name="lang_turkish">Türkçe</string>
+
+    <string name="settings_default_min_sdk">Varsayılan min SDK</string>
+    <string name="settings_default_target_sdk">Varsayılan hedef SDK</string>
+    <string name="settings_default_orientation">Varsayılan yönlendirme</string>
+    <string name="settings_default_proguard">ProGuard varsayılan olarak açık</string>
+
+    <string name="settings_cache_size">Önbellek boyutu</string>
+    <string name="settings_clear_cache">Önbelleği temizle</string>
+    <string name="settings_cache_cleared">Önbellek temizlendi</string>
+
+    <string name="settings_about_version">Sürüm</string>
+    <string name="settings_about_description">HTML to APK Studio, web varlıklarını native Android WebView projelerine dönüştürür.</string>
+    <string name="settings_about_open_source">Açık kaynak lisanslar</string>
+    <string name="settings_about_rate">Uygulamayı değerlendir</string>
+    <string name="settings_about_share">Uygulamayı paylaş</string>
+
+    <!-- Generation / build -->
+    <string name="gen_in_progress">Proje üretiliyor…</string>
+    <string name="gen_success">Proje başarıyla üretildi.</string>
+    <string name="gen_failed">Üretim başarısız: %1$s</string>
+    <string name="build_in_progress">APK derleniyor…</string>
+    <string name="build_success">APK başarıyla derlendi.</string>
+    <string name="build_failed">Derleme başarısız: %1$s</string>
+    <string name="build_unavailable">Android derleme araçları bulunamadı. Proje kaynakları üretildi ve harici olarak derlenebilir.</string>
+
+    <!-- Errors -->
+    <string name="error_app_name_required">Uygulama adı zorunludur.</string>
+    <string name="error_package_invalid">Paket adı geçersiz.</string>
+    <string name="error_source_required">Bir kaynak gereklidir.</string>
+    <string name="error_url_invalid">URL geçersiz.</string>
+    <string name="error_html_empty">HTML içeriği boş.</string>
+    <string name="error_file_not_found">Dosya bulunamadı.</string>
+    <string name="error_zip_invalid">Geçersiz ZIP arşivi.</string>
+    <string name="error_folder_empty">Klasör boş.</string>
+    <string name="error_network">Ağ hatası.</string>
+
+    <!-- Import / export -->
+    <string name="import_success">%1$d proje içe aktarıldı.</string>
+    <string name="export_success">%1$s konumuna dışa aktarıldı</string>
+    <string name="export_filename">%1$s.htmltoapk.json</string>
+
+    <!-- Notifications -->
+    <string name="notif_channel_build">Derleme durumu</string>
+    <string name="notif_channel_build_desc">Proje üretilirken veya derlenirken gösterilen bildirimler.</string>
+
+    <!-- Misc -->
+    <string name="content_description_logo">Uygulama logosu</string>
+    <string name="content_description_back">Geri</string>
+    <string name="content_description_more">Daha fazla seçenek</string>
+    <string name="content_description_search">Ara</string>
+    <string name="placeholder_version">1.0.0</string>
+    <string name="placeholder_package">com.ornek.uygulama</string>
+    <string name="placeholder_app_name">Benim WebView Uygulamam</string>
+    <string name="label_created_at">Oluşturuldu</string>
+    <string name="label_modified_at">Düzenlendi</string>
+    <string name="label_size">Boyut</string>
+</resources>

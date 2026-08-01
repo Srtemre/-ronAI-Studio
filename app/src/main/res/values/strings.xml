@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">HTML to APK Studio</string>
+
+    <!-- Navigation -->
+    <string name="nav_home">Home</string>
+    <string name="nav_projects">Projects</string>
+    <string name="nav_settings">Settings</string>
+
+    <!-- Home -->
+    <string name="home_welcome">Convert HTML, ZIP, URLs, folders or raw HTML into Android WebView apps.</string>
+    <string name="home_quick_start">Quick start</string>
+    <string name="home_fast_mode">Fast Mode</string>
+    <string name="home_fast_mode_desc">Create a project in a few taps.</string>
+    <string name="home_expert_mode">Expert Mode</string>
+    <string name="home_expert_mode_desc">Full control over WebView, signing and permissions.</string>
+    <string name="home_recent_projects">Recent projects</string>
+    <string name="home_no_recent">No recent projects yet.</string>
+    <string name="home_stats">Statistics</string>
+    <string name="home_stat_total">Total</string>
+    <string name="home_stat_favorites">Favorites</string>
+    <string name="home_stat_last_build">Last build</string>
+    <string name="home_stat_never">Never</string>
+
+    <!-- Editor: common -->
+    <string name="editor_fast_mode">Fast Mode</string>
+    <string name="editor_expert_mode">Expert Mode</string>
+    <string name="editor_section_basic">Basic</string>
+    <string name="editor_section_source">Source</string>
+    <string name="editor_section_permissions">Permissions</string>
+    <string name="editor_section_webview">WebView</string>
+    <string name="editor_section_appearance">Appearance</string>
+    <string name="editor_section_signing">Signing</string>
+    <string name="editor_section_advanced">Advanced</string>
+
+    <string name="field_app_name">App name</string>
+    <string name="field_package">Package name</string>
+    <string name="field_version">Version</string>
+    <string name="field_logo">App logo</string>
+    <string name="field_splash">Splash screen</string>
+    <string name="field_orientation">Orientation</string>
+    <string name="field_source">Source</string>
+
+    <string name="orientation_auto">Auto</string>
+    <string name="orientation_portrait">Portrait</string>
+    <string name="orientation_landscape">Landscape</string>
+
+    <string name="source_html_file">HTML File</string>
+    <string name="source_zip">ZIP Archive</string>
+    <string name="source_folder">Folder</string>
+    <string name="source_website_url">Website URL</string>
+    <string name="source_paste_html">Paste HTML</string>
+
+    <string name="action_pick_html_file">Pick HTML file</string>
+    <string name="action_pick_zip">Pick ZIP archive</string>
+    <string name="action_pick_folder">Pick folder</string>
+    <string name="action_fetch_url">Fetch URL</string>
+    <string name="action_paste_html">Paste HTML</string>
+    <string name="action_pick_logo">Pick logo</string>
+    <string name="action_pick_splash">Pick splash image</string>
+
+    <!-- WebView settings -->
+    <string name="webview_javascript">JavaScript</string>
+    <string name="webview_dom_storage">DOM Storage</string>
+    <string name="webview_mixed_content">Mixed content</string>
+    <string name="webview_cache_mode">Cache mode</string>
+    <string name="webview_user_agent">User agent</string>
+    <string name="webview_fullscreen">Fullscreen</string>
+    <string name="webview_immersive">Immersive mode</string>
+    <string name="webview_keep_screen_on">Keep screen on</string>
+    <string name="webview_edge_to_edge">Edge-to-edge</string>
+    <string name="webview_adaptive_icons">Adaptive icons</string>
+    <string name="webview_load_remote">Allow remote content</string>
+    <string name="webview_zoom">Built-in zoom controls</string>
+    <string name="webview_media_playback">Inline media playback</string>
+    <string name="webview_file_access">File access</string>
+
+    <string name="cache_default">Default</string>
+    <string name="cache_no_cache">No cache</string>
+    <string name="cache_cache_else_network">Cache else network</string>
+    <string name="cache_network_else_cache">Network else cache</string>
+    <string name="cache_cache_only">Cache only</string>
+
+    <string name="user_agent_default">Default</string>
+    <string name="user_agent_desktop">Desktop</string>
+    <string name="user_agent_custom">Custom</string>
+
+    <!-- Permissions -->
+    <string name="perm_internet">Internet</string>
+    <string name="perm_network_state">Network state</string>
+    <string name="perm_storage">Storage</string>
+    <string name="perm_camera">Camera</string>
+    <string name="perm_microphone">Microphone</string>
+    <string name="perm_location">Location</string>
+    <string name="perm_notifications">Notifications</string>
+    <string name="perm_vibrate">Vibrate</string>
+
+    <!-- Signing -->
+    <string name="signing_keystore">Keystore file</string>
+    <string name="signing_keystore_password">Keystore password</string>
+    <string name="signing_key_alias">Key alias</string>
+    <string name="signing_key_password">Key password</string>
+    <string name="signing_pick_keystore">Pick keystore</string>
+
+    <!-- Advanced -->
+    <string name="advanced_min_sdk">Min SDK</string>
+    <string name="advanced_target_sdk">Target SDK</string>
+    <string name="advanced_app_theme">Generated app theme</string>
+    <string name="advanced_status_bar_color">Status bar color</string>
+    <string name="advanced_nav_bar_color">Navigation bar color</string>
+    <string name="advanced_enable_pull_refresh">Pull-to-refresh</string>
+    <string name="advanced_offline_fallback">Offline fallback page</string>
+    <string name="advanced_enable_deep_links">Deep links</string>
+    <string name="advanced_proguard">Enable R8/ProGuard</string>
+    <string name="advanced_custom_headers">Custom HTTP headers (JSON)</string>
+
+    <!-- Project actions -->
+    <string name="action_create">Create</string>
+    <string name="action_save">Save</string>
+    <string name="action_generate">Generate Project</string>
+    <string name="action_build_apk">Build APK</string>
+    <string name="action_export">Export</string>
+    <string name="action_import">Import</string>
+    <string name="action_rename">Rename</string>
+    <string name="action_duplicate">Duplicate</string>
+    <string name="action_delete">Delete</string>
+    <string name="action_favorite">Favorite</string>
+    <string name="action_unfavorite">Unfavorite</string>
+    <string name="action_open">Open</string>
+    <string name="action_share">Share</string>
+    <string name="action_cancel">Cancel</string>
+    <string name="action_confirm">Confirm</string>
+    <string name="action_ok">OK</string>
+    <string name="action_close">Close</string>
+
+    <!-- Projects -->
+    <string name="projects_title">Projects</string>
+    <string name="projects_search_hint">Search projects…</string>
+    <string name="projects_empty">No projects yet. Create one from Fast or Expert mode.</string>
+    <string name="projects_filter_all">All</string>
+    <string name="projects_filter_favorites">Favorites</string>
+    <string name="projects_filter_recent">Recent</string>
+    <string name="projects_sort">Sort</string>
+    <string name="sort_name_asc">Name (A→Z)</string>
+    <string name="sort_name_desc">Name (Z→A)</string>
+    <string name="sort_date_desc">Newest first</string>
+    <string name="sort_date_asc">Oldest first</string>
+
+    <string name="confirm_delete_title">Delete project</string>
+    <string name="confirm_delete_message">Delete \"%1$s\"? This cannot be undone.</string>
+    <string name="rename_title">Rename project</string>
+
+    <!-- Settings -->
+    <string name="settings_section_appearance">Appearance</string>
+    <string name="settings_section_language">Language</string>
+    <string name="settings_section_build_defaults">Build defaults</string>
+    <string name="settings_section_cache">Cache</string>
+    <string name="settings_section_about">About</string>
+
+    <string name="settings_theme">Theme</string>
+    <string name="theme_dark">Dark</string>
+    <string name="theme_light">Light</string>
+    <string name="theme_system">System</string>
+
+    <string name="settings_dynamic_color">Dynamic color (Material You)</string>
+    <string name="settings_accent_color">Accent color</string>
+
+    <string name="settings_language">Language</string>
+    <string name="lang_english">English</string>
+    <string name="lang_turkish">Türkçe</string>
+
+    <string name="settings_default_min_sdk">Default min SDK</string>
+    <string name="settings_default_target_sdk">Default target SDK</string>
+    <string name="settings_default_orientation">Default orientation</string>
+    <string name="settings_default_proguard">Enable ProGuard by default</string>
+
+    <string name="settings_cache_size">Cache size</string>
+    <string name="settings_clear_cache">Clear cache</string>
+    <string name="settings_cache_cleared">Cache cleared</string>
+
+    <string name="settings_about_version">Version</string>
+    <string name="settings_about_description">HTML to APK Studio converts web assets into native Android WebView projects.</string>
+    <string name="settings_about_open_source">Open source licenses</string>
+    <string name="settings_about_rate">Rate app</string>
+    <string name="settings_about_share">Share app</string>
+
+    <!-- Generation / build -->
+    <string name="gen_in_progress">Generating project…</string>
+    <string name="gen_success">Project generated successfully.</string>
+    <string name="gen_failed">Generation failed: %1$s</string>
+    <string name="build_in_progress">Building APK…</string>
+    <string name="build_success">APK built successfully.</string>
+    <string name="build_failed">Build failed: %1$s</string>
+    <string name="build_unavailable">Android build tools not detected. Project sources were generated and can be built externally.</string>
+
+    <!-- Errors -->
+    <string name="error_app_name_required">App name is required.</string>
+    <string name="error_package_invalid">Package name is invalid.</string>
+    <string name="error_source_required">A source is required.</string>
+    <string name="error_url_invalid">URL is invalid.</string>
+    <string name="error_html_empty">HTML content is empty.</string>
+    <string name="error_file_not_found">File not found.</string>
+    <string name="error_zip_invalid">Invalid ZIP archive.</string>
+    <string name="error_folder_empty">Folder is empty.</string>
+    <string name="error_network">Network error.</string>
+
+    <!-- Import / export -->
+    <string name="import_success">Imported %1$d project(s).</string>
+    <string name="export_success">Exported to %1$s</string>
+    <string name="export_filename">%1$s.htmltoapk.json</string>
+
+    <!-- Notifications -->
+    <string name="notif_channel_build">Build status</string>
+    <string name="notif_channel_build_desc">Notifications shown while generating or building projects.</string>
+
+    <!-- Misc -->
+    <string name="content_description_logo">App logo</string>
+    <string name="content_description_back">Back</string>
+    <string name="content_description_more">More options</string>
+    <string name="content_description_search">Search</string>
+    <string name="placeholder_version">1.0.0</string>
+    <string name="placeholder_package">com.example.app</string>
+    <string name="placeholder_app_name">My WebView App</string>
+    <string name="label_created_at">Created</string>
+    <string name="label_modified_at">Modified</string>
+    <string name="label_size">Size</string>
+</resources>
