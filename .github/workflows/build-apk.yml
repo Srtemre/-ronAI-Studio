@@ -27,6 +27,10 @@ jobs:
         mkdir -p app
         echo '{"project_info":{"project_number":"0","project_id":"dummy","storage_bucket":"dummy"},"client":[{"client_info":{"mobilesdk_app_id":"1:0:android:0","android_client_info":{"package_name":"com.aistudio.htmlappbuilder.app"}},"api_key":[{"current_key":"dummy"}]}]}' > app/google-services.json
 
+    - name: Sahte Debug Keystore Olustur
+      run: |
+        keytool -genkey -v -keystore debug.keystore -storepass android -alias androiddebugkey -keypass android -keyalg RSA -keysize 2048 -validity 10000 -dname "CN=Android Debug,O=Android,C=US"
+
     - name: APK Derle
       run: gradle assembleDebug --no-daemon -Djava.awt.headless=true
 
@@ -35,4 +39,4 @@ jobs:
       with:
         name: app-debug-apk
         path: app/build/outputs/apk/debug/app-debug.apk
-
+n
