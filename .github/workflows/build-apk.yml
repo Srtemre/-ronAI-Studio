@@ -32,11 +32,10 @@ jobs:
         keytool -genkey -v -keystore debug.keystore -storepass android -alias androiddebugkey -keypass android -keyalg RSA -keysize 2048 -validity 10000 -dname "CN=Android Debug,O=Android,C=US"
 
     - name: APK Derle
-      run: gradle assembleDebug --no-daemon -Djava.awt.headless=true
+      run: gradle assembleDebug --no-daemon -Djava.awt.headless=true -x kspDebugKotlin
 
     - name: APK Dosyasini Yukle
       uses: actions/upload-artifact@v4
       with:
         name: app-debug-apk
         path: app/build/outputs/apk/debug/app-debug.apk
-
