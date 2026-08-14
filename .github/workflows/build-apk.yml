@@ -22,12 +22,19 @@ jobs:
     - name: Gradle Kurulumu
       uses: gradle/actions/setup-gradle@v3
 
+    - name: Dummy google-services.json Oluştur (Gerekirse)
+      run: |
+        if [ ! -f "app/google-services.json" ]; then
+          mkdir -p app
+          echo '{"project_info":{"project_number":"0","project_id":"dummy","storage_bucket":"dummy"},"client":[{"client_info":{"mobilesdk_app_id":"1:0:android:0","android_client_info":{"package_name":"com.example.app"}},"api_key":[{"current_key":"dummy"}]}]}' > app/google-services.json
+        fi
+
     - name: APK Derle
-      run: gradle assembleDebug
+      run: gradle assembleDebug --no-daemon -Djava.awt.headless=true
 
     - name: APK Dosyasini Yukle
       uses: actions/upload-artifact@v4
       with:
         name: app-debug-apk
         path: app/build/outputs/apk/debug/app-debug.apk
-
+ 
